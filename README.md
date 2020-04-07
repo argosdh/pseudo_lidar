@@ -110,6 +110,8 @@ python ./psmnet/submission.py \
     --loadmodel ./psmnet/kitti_3d/finetune_300.tar \
     --datapath ./KITTI/object/testing/ \
     --save_path ./KITTI/object/testing/predict_disparity
+# paset version:
+python ./psmnet/submission.py --loadmodel ./psmnet/kitti_3d/finetune_300.tar --datapath ./KITTI/object/testing/ --save_path ./KITTI/object/testing/predict_disparity
 ```
 ##### Convert the disparities to point clouds.
 ```angular2html
