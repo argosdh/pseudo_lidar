@@ -127,6 +127,8 @@ python ./preprocessing/generate_lidar.py  \
     --save_dir ./KITTI/object/testing/pseudo-lidar_velodyne/ \
     --disparity_dir ./KITTI/object/testing/predict_disparity \
     --max_high 1
+# paset version:
+python ./preprocessing/generate_lidar.py  --calib_dir ./KITTI/object/testing/calib/ --save_dir ./KITTI/object/testing/pseudo-lidar_velodyne/ --disparity_dir ./KITTI/object/testing/predict_disparity --max_high 1
 ```
 If you want to generate point cloud from depth map (like DORN), you can add `--is_depth` in the command.
 
